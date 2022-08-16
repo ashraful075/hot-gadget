@@ -16,11 +16,6 @@
     padding: 9px 25px;
     cursor: pointer;
 }
-.align{
+.text-position{
     text-align: center;
-}
-.img-align{
-    background-color: linear-gradient(white);
-    border-radius: 10px;
-    padding: 9px 15px;
 }
