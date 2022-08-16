@@ -1,21 +1,83 @@
-.container{
-    margin-bottom: 100px;
+
+h1{
+    font-size: 41px;
 }
-.orange-bg{
-    background-color: lightblue;
-    border-radius: 10px;
+h2,
+h3{
+    font-weight: 500;
+}
+h2{
+    font-size: 34px;
+}
+a:hover{
+    text-decoration: none;
+    color: #FFD019;
+}
+.navbar-brand img,
+footer img{
+    height: 65px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #707070;
+}
+.banner-section{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 8%;
 }
 .carousel-item{
-    padding: 20px 40px;
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50%;
 }
-.buy-now-button{
-    background-color: black;
-    color: white;
+.carousel-indicators li{
+    background-color: #CECECE;
+    height: 10px;
+    width: 16px;
+    border-radius: 6px;
     border: none;
-    border-radius: 8px;
-    padding: 9px 25px;
-    cursor: pointer;
 }
-.text-position{
+.carousel-indicators .active{
+    background-image: linear-gradient(to right #FF9C35 #FFD019);
+    width: 45px;
+}
+.card{
+    border: none;
+    box-shadow: 0 5px 20px rgba(109, 109, 109, 0.12);
+    border-radius: 10px;
+}
+.card img{
+    padding-top: 30px;
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto
+}
+span.color-br{
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left #FF9C35 #FFD019 );
+}
+.product-cat-tittle a {
+    color: #FF9D00;
+    font-weight: 700;
+}
+.single-cat{
     text-align: center;
+    border-radius: 20px 0 20px 0px;
+}
+.single-cat a h4{
+    color: #2c2c2c;
+    margin-top: 10px;
+}
+.single-cat.reverse-radious{
+    border-radius: 0 20px 0 20px;
+}
+.single-cat:hover{
+    transform: translateY(-10PX);
 }
