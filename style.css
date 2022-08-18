@@ -1,4 +1,6 @@
-
+.container{
+    margin-bottom: 100px;
+}
 h1{
     font-size: 41px;
 }
@@ -23,7 +25,7 @@ footer img{
 .banner-section{
     background-image: url(images/bg-2.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position:left;
     background-size: 8%;
 }
 .carousel-item{
@@ -41,7 +43,7 @@ footer img{
 }
 .carousel-indicators .active{
     background-image: linear-gradient(to right #FF9C35 #FFD019);
-    width: 45px;
+    width: 45px
 }
 .card{
     border: none;
@@ -55,13 +57,9 @@ footer img{
     display: block;
     margin: 0 auto
 }
-span.color-br{
-    display: block;
-    margin: 0 auto;
-    width: 120px;
-    height: 5px;
-    border-radius: 5px;
-    background-image: linear-gradient(to left #FF9C35 #FFD019 );
+.text-center{
+    padding: 30px;
+    text-decoration: none;
 }
 .product-cat-tittle a {
     color: #FF9D00;
